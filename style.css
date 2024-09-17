@@ -134,7 +134,7 @@ nav ul li a:hover {
 }
 .a{
     display: flex;
-    position: fixed;
+     
 }
   .download  {
     flex-wrap: nowrap;
@@ -147,7 +147,8 @@ nav ul li a:hover {
 
 .download li{
     display: flex;
-}<a aria-label="Yasio" href="#start" target="_self" class="navbar-brand"> 
+}
+/* }<a aria-label="Yasio" href="#start" target="_self" class="navbar-brand"> 
 <div class="block-reveal block-reveal--active">
 <span class="block-reveal__block white"></span>
-<small id="first-element" class="block-reveal__text section-title mb-3 pb-3">Start /></small>
+<small id="first-element" class="block-reveal__text section-title mb-3 pb-3">Start /></small> */
