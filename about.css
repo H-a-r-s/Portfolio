@@ -3,11 +3,14 @@
     display: flex;
     justify-content: space-around;
     margin: 80px;
-    margin-top: 150px;
+    /* margin-top: 150px; */
+    height: 80vh;
+    padding-top:  30px;
+    padding-bottom: 0px;
 }
 .leftside img {
 
-    width: 80%;
+    width: 100%;
 }
 
 .rightside {
@@ -31,13 +34,18 @@ section{
 
 .text-section h1 {
     font-size: 2.3rem;
-    color: #fafafa;
+    color:white;
 }
 
 .text-section p {
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     margin: 5px 10px;
     color: #fcfcfc;
 }
-
+.text-section ul li{
+    color: white;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
  

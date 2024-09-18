@@ -10,8 +10,11 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="about.css">
+    <link rel="stylesheet" href="skills.css">
+    <link rel="stylesheet" href="projects.css">
+    <link rel="stylesheet" href="contact.css">
 
 </head>
 
@@ -21,17 +24,17 @@
             <div class="left">< Harsh Dixit></div>
             <div class="right">
                 <ul>
-                    <li><a href="/">Home</a></li>
-                    <li><a href="/">About</a></li>
-                    <li><a href="/">Skills</a></li>
-                    <li><a href="/">Projects</a></li>
-                    <li><a href="/">Contact</a></li>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
                 </ul>
             </div>
         </nav>
      </header>
      <main>
-        <section class="firstSection">
+        <section id="home" class="firstSection">
 
             <div>
 
@@ -45,7 +48,7 @@
                     <div class="new">
                   <li>
                     <a href="https://github.com/H-a-r-s" target="_blank">
-                        <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="GitHub" width="50" height="50">
+                        <img style="background-color: black;" src="https://radxa.com/components/gitoff.png" alt="GitHub" width="50" height="50">
                       </a>
                      </li>
                   <li>  <a href="https://www.instagram.com/harshdixit004/" target="_blank">
@@ -92,7 +95,9 @@
 
         </section>
      </main>
-     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js">
+    
+     </script>
      <script>
         var typed = new Typed('#element', {
           strings: ['Web Developer', 'Software Developer'],
@@ -101,7 +106,8 @@
       </script>
 
       <main>
-          <section class="secSection">
+        <hr class="line" id="about">
+          <section  class="secSection">
             <div class="leftside">
                 <img src="aboutsec.png" alt="Developer">
             </div>
@@ -111,7 +117,7 @@
                  
             <div class="rightSection2">
                 <div class="text-section">
-                    <h1 i>What I do</h1>
+                    <h1>What I do</h1>
                     <br></br>
                     <p>CRAZY FULL STACK DEVELOPER WHO WANT TO EXPLORE EVERY TECH STACK</p>
                     
@@ -122,7 +128,11 @@
                         <li>My academic journey has equipped
                           me with hands-on experience in programming languages like Java,
                           Python, and C++, along with exposure to web development and
-                          software engineering principles. </li>
+                          software engineering principles.
+                         </li>
+                         <li> I am eager to learn and work on new things where I can further develop my technical skills and gain valuable insights from industry professionals as well.
+                         </li>
+                        
                     </ul>
                 </div>
             </div>
@@ -132,7 +142,127 @@
              
          </section>  
      </main>
+        
+     <main> 
+      <hr class="line" id="skills" >
+      <section class="thirdSection">
+     
+        <div class="proficiency-section">
+            <h1>Skills</h1>
+            <div class="skill">
+                <p>Frontend/Design</p>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 85%;"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <p>Backend</p>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 70%;"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <p>Programming</p>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 60%;"></div>
+                </div>
+            </div>
+        </div>
 
-</body>
+
+
+        <div class="image-section">
+            <img src="skills.png" alt="Proficiency Image" class="proficiency-img">
+        </div>
+    
+  </section>
+     </main>
+    
+     <main>
+      <hr class="line" id="projects">
+      <section class="fourthSection">
+     
+        <h1>Open Source Projects</h1>
+
+        <br></br>
+        <div class="projects-container">
+          
+          <div class="project-card">
+            <div class="project-header"> </div>
+            <div class="project-description">
+              
+            </div>
+            <div class="project-info">
+              <div class="tech-stack">
+                <span class="box">JavaScript</span>
+              </div>
+              <div class="project-stats">
+                 
+              </div>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div class="project-header"> </div>
+            <div class="project-description">
+                 
+            </div>
+            <div class="project-info">
+              <div class="tech-stack">
+                <span class="box">JavaScript</span>
+              </div>
+              <div class="project-stats">
+                 
+              </div>
+            </div>
+          </div>
+      
+          <div class="project-card">
+            <div class="project-header"> </div>
+            <div class="project-description">
+               
+            </div>
+            <div class="project-info">
+              <div class="tech-stack">
+                <span class="box">JavaScript</span>
+              </div>
+              <div class="project-stats">
+               
+              </div>
+            </div>
+          </div>
+      
+          <div class="project-card">
+            <div class="project-header"> </div>
+            <div class="project-description">
+              
+            </div>
+            <div class="project-info">
+              <div class="tech-stack">
+                <span class="box">JavaScript</span>
+              </div>
+              <div class="project-stats">
+                
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+     </section>
+    </main>
+
+     <main>
+      <hr class="line" id="contact">
+      <section  class="fifthSection">
+        <h1>Contact Me</h1>
+      
+      
+      
+      
+      
+      </section>
+     </main>
+  </body>
 
 </html>

@@ -1,0 +1,75 @@
+.thirdSection{
+    display: flex;
+    justify-content: space-around;
+    /* margin: 80px; */
+    /* margin-top: 150px;  */
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    padding-top: 230px;
+    padding-bottom: 250px;
+}
+ 
+
+.container {
+    display: flex;
+    flex-direction: row;
+    
+    padding: 20px;
+    border-radius: 10px;
+     
+}
+ 
+.proficiency-section {
+    flex: 0.5;
+    margin-left: 100px;
+
+}
+main hr{
+    border: 0;  
+    height: 1vh;
+    background: black;  
+    margin-bottom: 50px;
+}
+.proficiency-section h1 {
+    font-size: 2.3rem;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.skill {
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+
+.skill p {
+    font-size: 1rem;
+    color: white;
+    margin-bottom: 5px;
+}
+
+.progress-bar {
+    width: 100%;
+    background-color: #e0e0e0;
+    border-radius: 5px;
+    height: 10px;
+    overflow: hidden;
+}
+
+.progress {
+    height: 100%;
+    background-color: #b19cd9;
+    border-radius: 5px;
+}
+ 
+.image-section {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.proficiency-img {
+    max-width: 100%;
+    height: auto;
+}  
