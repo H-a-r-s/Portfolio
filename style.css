@@ -8,13 +8,19 @@ body {
     margin: 0;
     padding: 0;
 }
-
+ section{
+     margin-top: 10px;
+}  
 nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
     height: 80px;
     background-color: rgb(18, 18, 62);
+    position: fixed; 
+    z-index: 1000;
+    width: 100%;
+    top: 0;  
 }
 
 nav ul {
@@ -49,6 +55,7 @@ nav ul li a:hover {
     justify-content: space-around;
     margin: 80px;
     align-items: center;
+    margin-top: 225px;
 }
 
 .firstSection>div {
@@ -148,6 +155,7 @@ nav ul li a:hover {
 .download li{
     display: flex;
 }
+
 /* }<a aria-label="Yasio" href="#start" target="_self" class="navbar-brand"> 
 <div class="block-reveal block-reveal--active">
 <span class="block-reveal__block white"></span>

@@ -3,11 +3,11 @@
     display: flex;
     justify-content: space-around;
     margin: 80px;
-     
+    margin-top: 150px;
 }
 .leftside img {
 
-    width: 70%;
+    width: 80%;
 }
 
 .rightside {
