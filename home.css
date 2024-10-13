@@ -43,7 +43,7 @@ nav ul li a {
 nav ul li a:hover {
     
     color: rgb(79, 79, 138);
-    font-size: 0.97rem;
+    font-size: 0.99rem;
 
 }
 
@@ -105,29 +105,9 @@ nav ul li a:hover {
     flex-direction: row;
     padding: 5%"";
     margin-top: 10%;
-     object-fit:cover;
-    /* display: inline-flex;
-    justify-content: center;
-    flex-wrap: nowrap;
-    flex-direction: row;
-    padding: 5%"";
-    margin-top: 10%;
-    align-items: center;
-    margin: 3rem 1.5rem 3rem 0;
-    transition: 0.5s ease;
-    
-    
-    width: 4rem;
-    height: 4rem;
-    background: transparent;
-    border: 0.2rem solid #59B2F4;
-    border-radius: 50%;
-    font-size: 2rem;
-    color: #59B2F4; */
-   ; 
+     object-fit:cover; 
 }
  .iconcol a:hover {
-    /* background: #59B2F4; */
     color: #191f36;
     box-shadow: 0 0 1rem #59B2F4;  
 }

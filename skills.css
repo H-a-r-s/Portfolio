@@ -1,8 +1,6 @@
 .thirdSection{
     display: flex;
     justify-content: space-around;
-    /* margin: 80px; */
-    /* margin-top: 150px;  */
     justify-content: center;
     align-items: center;
     height: 10vh;

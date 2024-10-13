@@ -1,0 +1,52 @@
+.container {
+    text-align: center;
+    padding: 50px;
+}
+.profile-picture {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border: 5px solid #6c63ff;
+}
+h1 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 20px 0;
+}
+.social-icons a {
+    display: flex;
+    text-decoration: none;
+    font-size: 24px;
+    color: #09fbf7;
+}
+.social-icons a:hover {
+    color: #6c63ff;
+}
+.location {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.opportunities {
+    font-size: 16px;
+    font-weight: bold;
+    color: #4caf50;
+}
+footer {
+    background-color: #333;
+    color: white;
+    padding: 10px ;
+    text-align: left;
+}
+footer p {
+    margin: 0;
+}

@@ -1,15 +1,12 @@
-.fourthSection{
-      /* display: grid; */
+.fourthSection{ 
     justify-content: space-around;
       margin: 80px;  
        margin-top: 10px;   
     justify-content: center;
     align-items: center;  
-    /* height: 150vh; */
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
       gap: 20px;
-      padding-top: 50px;
-      /* padding: 200px 20px;   */
+      padding-top: 50px; 
 }
 .projects-container {
     display: grid;
@@ -77,3 +74,60 @@
     margin-left: 10px;
     font-size: 0.9rem;
   }
+
+/* Achivements Section
+ */
+  .contain {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+    transition: transform 0.2s ease-in-out;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    
+}
+
+
+h1 {
+    /* text-align: center; */
+    margin-bottom: 20px;
+    font-size: 36px;
+    color: white;
+}
+
+.achievements {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: #191f36;;
+    gap: 20px;
+}
+.achievements :hover{
+  transform: scale(1.05);
+}
+.achievement {
+    background:  rgb(18,18,62);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 30%;
+    margin-bottom: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+.achievement img {
+    max-width: 100px;
+    margin-bottom: 15px;
+    background: transparent;
+}
+
+.achievement h2 {
+    font-size: 24px;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.achievement p {
+    font-size: 16px;
+    color:white;
+}
